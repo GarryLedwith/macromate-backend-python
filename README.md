@@ -15,13 +15,21 @@ This is the **Python backend** for MacroMate
 
 macromate-backend-python/
 ├── app/
+
 │ ├── main.py # FastAPI app entrypoint
+
 │ ├── routes/ # API routes (e.g., food, goals, weights)
+
 │ ├── services/ # Business logic (e.g., Edamam integration)
+
 │ ├── models/ # Pydantic models for validation
+
 │ └── db.py # MongoDB connection
+
 ├── .env # Environment variables (excluded from Git)
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # This file
 
 ---
