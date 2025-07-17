@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Virtual Environment ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- IDE & Editor Files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Variables ---
+.env
+.env.*
+
+# --- Logs & Output ---
+*.log
+
+# --- Uvicorn reload artifacts ---
+*.reload
+
+# --- Testing/coverage ---
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# --- Git ---
+*.orig
